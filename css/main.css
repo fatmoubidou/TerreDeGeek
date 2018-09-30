@@ -113,6 +113,10 @@ ul, li, p, h3 {
   list-style: none;
 }
 
+.width10{
+  width:10%;
+}
+
 .width20{
   width: 20%;
 }
@@ -123,6 +127,10 @@ ul, li, p, h3 {
 
 .width30{
   width: 30%;
+}
+
+.width45{
+  width: 45%;
 }
 
 .width50{
@@ -352,6 +360,18 @@ main#contact form select{
 
 main#contact form div{
   margin-bottom: 1em;
+}
+
+/* Main Products list */
+main#list div section div article {
+  background-color: #fff;
+  padding: 0.5em;
+  border: 1px solid #eee;
+  border-radius: 0.25em;
+}
+
+main#list section div article h3{
+  text-align: center;
 }
 
 
