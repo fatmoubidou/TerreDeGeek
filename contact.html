@@ -1,0 +1,127 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Contact - Terre de Geek</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<body class="flexColumn">
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- START HEADER -->
+  <header class="flexColumn">
+    <nav class="width80 flex jc_between ai_center mgAuto mgTB0_5">
+      <img src="img/logo.png" alt="">
+      <ul id="info" class="width20 height25 flex jc_between ai_center">
+        <li class=""><a href="#"><i class="fas fa-user-alt"></i>Mon compte</a></li>
+        <li class=""><a href="#"><i class="fas fa-shopping-basket"></i>Mon panier</a></li>
+      </ul>
+    </nav>
+    <nav class="width80 flex jc_between ai_center mgAuto mgTB1">
+      <div class="flex ai_center width50">
+        <ul id="menu" class="flex width100 jc_around">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#">Catégorie 1</a></li>
+          <li><a href="#">Catégorie 2</a></li>
+          <li><a href="#">Catégorie 3</a></li>
+          <li><a href="la_marque.html">La marque</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="width50 flex jc_end">
+        <input class="width50" type="text" name="" value="Rechercher">
+      </div>
+    </nav>
+  </header>
+  <!-- END HEADER -->
+
+  <!-- START MAIN -->
+  <main id="contact" class="flexColumn height100 grisClair">
+    <section class="width80 height100 mgAuto blanc">
+      <h1 class="mgLR1">Contactez-nous</h1>
+      <p class="mgLR1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Duis volutpat, mauris et finibus placerat, quam tortor suscipit ex, finibus eleifend eros velit sit amet lacus.
+        Donec a posuere ipsum. Curabitur turpis eros, aliquam nec tempus eget, tempor vel libero. Vestibulum non ex tempor,
+      </p>
+      <form class="flex jc_center mg1" action="index.html" method="post">
+        <div class="width50 flexColumn">
+          <div class="flex jc_around">
+            <label class="txtRight" for="msg">Objet du message *</label>
+            <select required name="msg">
+              <option value="0">...</option>
+              <option value="1">Une demande d'informations</option>
+              <option value="2">Une réclamation</option>
+              <option value="3"></option>
+            </select>
+          </div>
+          <div class="flex jc_around">
+            <label class="txtRight" for="nom">Nom *</label>
+            <input type="text" id="nom" name="nom" value="" required>
+          </div>
+          <div class="flex jc_around">
+            <label class="txtRight" for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom" value="">
+          </div>
+          <div class="flex jc_around">
+            <label class="txtRight" for="email">E-mail *</label>
+            <input type="email" id="email" name="email" value="" required>
+          </div>
+          <div class="flex jc_around">
+            <label class="txtRight" for="tel">N° de téléphone</label>
+            <input type="tel" id="tel" name="tel" value="">
+          </div>
+          <div class="flex jc_around">
+            <label class="txtRight" for="age">Age</label>
+            <input type="number" id="age" name="age" value="">
+          </div>
+          <div class="flex jc_center">
+            <input class="button" type="submit" name="" value="Envoyer">
+          </div>
+        </div>
+      </form>
+    </section>
+  </main>
+  <!-- END MAIN -->
+
+  <!-- START FOOTER -->
+  <footer class="grisFonce">
+    <ul class="width25 flex jc_around mgAuto padding1">
+      <li><a href="#">Informations légales</a></li>
+      <li><a href="#">CGV</a></li>
+      <li><a href="#">La marque</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </footer>
+  <!-- END FOOTER -->
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
