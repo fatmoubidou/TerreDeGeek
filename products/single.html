@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Détails produit - Terre de Geek</title>
+  <title>Détails produits - Terre de Geek</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -12,13 +12,13 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="flexColumn">
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
@@ -26,7 +26,7 @@
   <!-- START HEADER -->
   <header class="flexColumn">
     <nav class="width80 flex jc_between ai_center mgAuto mgTB0_5">
-      <img src="img/logo.png" alt="">
+      <img src="../img/logo.png" alt="">
       <ul id="info" class="width20 height25 flex jc_between ai_center">
         <li class=""><a href="#"><i class="fas fa-user-alt"></i>Mon compte</a></li>
         <li class=""><a href="#"><i class="fas fa-shopping-basket"></i>Mon panier</a></li>
@@ -51,60 +51,21 @@
   <!-- END HEADER -->
 
   <!-- START MAIN -->
-  <main id="homepage" class="flexColumn grisClair">
-    <div class="width80 flex mgAuto jc_center noir">
-      <iframe width="1200" height="600" src="https://www.youtube.com/embed/FcaboGwpJPA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <main id="single" class="flex height100 grisClair">
+    <div class="width80 mgAuto flex blanc ">
+      <aside class="mg1">
+        <img src="../tile.png" alt="photo produit" title="photo produit">
+      </aside>
+
+      <section class="mg1">
+        <h1>Titre produit</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat, mauris et finibus placerat, quam tortor suscipit ex, finibus eleifend eros velit sit amet lacus. Donec a posuere ipsum. Curabitur turpis eros, aliquam nec tempus eget, tempor vel libero. Vestibulum non ex tempor, ultrices nibh sit amet, pulvinar metus. Donec posuere semper suscipit. Proin maximus ultricies varius. Suspendisse nec viverra ex, quis egestas nisi. Nunc nisl purus, vestibulum vitae erat a, pellentesque tincidunt tortor. Aliquam luctus imperdiet egestas. Etiam nec turpis nec erat consectetur semper vitae et nunc. Aenean nisi neque, vehicula at tempus nec, ultricies sit amet sapien. </p>
+        <h2 class="txtRight">19,99€</h2>
+        <div class="flex jc_end"><input type="button" name="" value="Ajouter au panier" class="button"></div>
+      </section>
+
+
     </div>
-    <section class="width80 flexColumn mgAuto mgTB1 ">
-      <h2 class="mgLR1">Notre sélection de la semaine</h2>
-      <div class="flex jc_between mgLR1">
-        <article>
-          <img src="icon.png" alt="">
-          <h3>Titre produit</h3>
-          <div>
-            <a href="#" class="button">Voir</a>
-          </div>
-        </article>
-        <article>
-          <img src="icon.png" alt="">
-          <h3>Titre produit</h3>
-          <div>
-            <a href="#" class="button">Voir</a>
-          </div>
-        </article>
-        <article>
-          <img src="icon.png" alt="">
-          <h3>Titre produit</h3>
-          <div>
-            <a href="#" class="button">Voir</a>
-          </div>
-        </article>
-        <article>
-          <img src="icon.png" alt="">
-          <h3>Titre produit</h3>
-          <div>
-            <a href="#" class="button">Voir</a>
-          </div>
-        </article>
-        <article>
-          <img src="icon.png" alt="">
-          <h3>Titre produit</h3>
-          <div>
-            <a href="#" class="button">Voir</a>
-          </div>
-        </article>
-        <article>
-          <img src="icon.png" alt="">
-          <h3>Titre produit</h3>
-          <div>
-            <a href="#" class="button">Voir</a>
-          </div>
-        </article>
-      </div>
-      <div class="flex jc_end mgTB1 mgLR1">
-        <a class="button" href="#">Voir tous les produits</a>
-      </div>
-    </section>
   </main>
   <!-- END MAIN -->
 
